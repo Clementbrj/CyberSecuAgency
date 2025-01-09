@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+// Import des composants 
+import Acceuil from "./composants/acceuil";
+import Services from "./composants/services";
+import Formulaire from "./composants/forms";
+import FormSubmit from "./composants/formsubmit";
+import Auth from "./composants/connexion";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Routes>
+        {/* Définition des routes */}
+          <Route path="/" element={<Acceuil/>}/> 
+          <Route path="/services" element={<Services/>}/>
+          <Route path="/forms" element={<Formulaire/>}></Route>
+          <Route path="/formsubmit" element={<FormSubmit/>}></Route>
+          <Route path="/Auth" element={<Auth/>}></Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

@@ -1,0 +1,18 @@
+.Text {
+    display:block;
+    margin-top: 50px;
+    font-size: 25px;
+    text-align:center;
+    color:black;
+}
+
+.Bouton {
+    display:block;
+    margin: 20px auto;
+    padding: 15px 30px; /* hauteur / largeur entre texte et bordure */
+    font-size: 1.3rem; /* Taille du texte du bouton */
+    background-color: #162f49; /* Couleur bleue (modifiable) */
+    color: white; /* Texte blanc */
+    border-radius: 8px; /* Coins arrondis */
+    cursor: pointer;
+}
