@@ -38,7 +38,7 @@ function Expertise() {
             <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
             <h3><strong>Sensibilisation</strong></h3>
             <p>La CyberSecurity Agency viens à vous. <br></br>
-               Viens à votre aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
+               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
                <br></br>
               Voir le service</p>
           </li> 

@@ -7,9 +7,8 @@ import "../styles/acceuil.css";
 
 // Mise en page de l'HTML 
 function Acceuil() {
-  return (
-    <div>
-      {/* Header */}
+  return(
+<div>
       <div className="header">
         <div className="header_texture"></div>
         <div className="header_text">
@@ -24,10 +23,11 @@ function Acceuil() {
         </div>
       </div>
 
-      {/* Content */}
-      <div className="containerbody">
+
+      {/* 1ER étage de compétences */}
+      <div className="column-align">
         <ul className="columnbody">
-          <li>
+          <li className ="columnbody">
             <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
             <h3><strong>Sensibilisation</strong></h3>
             <p>La CyberSecurity Agency viens à vous. <br></br>
@@ -35,34 +35,92 @@ function Acceuil() {
                <br></br>
               Voir le service</p>
           </li> 
-          <li>
-            <img src={`${process.env.PUBLIC_URL}/IMG/consultation.jpeg`} alt="Consultation" height="204" width="220"/>
-            <h3><strong>Consultation</strong></h3>
-            <p>Vous rencontrez des problèmes de cybersécurité ? <br></br>
-               Nous pouvons vous fournir notre expertise et diagnostiquer vos problèmes<br></br>
-               Et leurs solutions ! <br></br> <br></br>
+        </ul>
+        <ul className="columnbody">
+          <li className ="columnbody">
+            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
+            <h3><strong>Sensibilisation</strong></h3>
+            <p>La CyberSecurity Agency viens à vous. <br></br>
+               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
+               <br></br>
               Voir le service</p>
-          </li>
-          <li>
-            <img src={`${process.env.PUBLIC_URL}/images/placeholder.jpg`} alt="Img" height="204" width="220"/>
-            <h3><a href="blog.html">Service 3</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec mi tortor.</p>
-          </li>
-          <li>
-            <img src={`${process.env.PUBLIC_URL}/images/placeholder.jpg`} alt="Img" height="204" width="220"/> 
-            <h3><a href="blog.html">Service 4</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec mi tortor.</p>
-          </li>
+          </li> 
+        </ul>
+        <ul className="columnbody">
+          <li className ="columnbody">
+            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
+            <h3><strong>Sensibilisation</strong></h3>
+            <p>La CyberSecurity Agency viens à vous. <br></br>
+               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
+               <br></br>
+              Voir le service</p>
+          </li> 
+        </ul>
+        <ul className="columnbody">
+          <li className ="columnbody">
+            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
+            <h3><strong>Sensibilisation</strong></h3>
+            <p>La CyberSecurity Agency viens à vous. <br></br>
+               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
+               <br></br>
+              Voir le service</p>
+          </li> 
         </ul>
       </div>
 
-    {/* Footer */}
+      {/* 2EME étage */}
+      <div className="column-align">
+        <ul className="columnbody">
+          <li className ="columnbody">
+            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
+            <h3><strong>Sensibilisation</strong></h3>
+            <p>La CyberSecurity Agency viens à vous. <br></br>
+               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
+               <br></br>
+              Voir le service</p>
+          </li> 
+        </ul>
+        <ul className="columnbody">
+          <li className ="columnbody">
+            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
+            <h3><strong>Sensibilisation</strong></h3>
+            <p>La CyberSecurity Agency viens à vous. <br></br>
+               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
+               <br></br>
+              Voir le service</p>
+          </li> 
+        </ul>
+        <ul className="columnbody">
+          <li className ="columnbody">
+            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
+            <h3><strong>Sensibilisation</strong></h3>
+            <p>La CyberSecurity Agency viens à vous. <br></br>
+               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
+               <br></br>
+              Voir le service</p>
+          </li> 
+        </ul>
+        <ul className="columnbody">
+          <li className ="columnbody">
+            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
+            <h3><strong>Sensibilisation</strong></h3>
+            <p>La CyberSecurity Agency viens à vous. <br></br>
+               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
+               <br></br>
+              Voir le service</p>
+          </li> 
+        </ul>
+      </div>
+  
+
+      {/* Footer */}
       <div className="footer">
         <div className="footer_text">
           <div className="containerfooter">
             <div className="column">
-              <h2>X</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h2>Prennez RDV</h2>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8-53Pz-hDo81wTA1ALh6Ql5Cp0lz1eyKgH1cCoL0b3zBTlA/viewform?vc=0&c=0&w=1&flr=0">
+              <p>Remplir le formulaire</p></a>
             </div>
             <div className="column">
             <h2><center>Contacts</center></h2>

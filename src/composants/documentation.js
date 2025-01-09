@@ -24,6 +24,7 @@ function Documentation() {
             <div className="services-container">
                 <h2>Nos Services</h2>
                 <p>Voici une description des services que nous proposons...</p>
+                <a href="/PDF/pdf1.pdf" download="pdf1.pdf">Télécharger la documentation 1</a>
             </div>
         </div>
     );
