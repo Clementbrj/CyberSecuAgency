@@ -9,6 +9,7 @@ import "../styles/acceuil.css";
 function Acceuil() {
   return (
     <div>
+      {/* Header */}
       <div className="header">
         <div className="header_texture"></div>
         <div className="header_text">
@@ -17,16 +18,15 @@ function Acceuil() {
         <div className="header_navbar">
           <div className="header_navbar--menu">
             <Link to="/" className="header_navbar--menu-link">Accueil</Link> {/* Navigation */}
-            <Link to="/services" className="header_navbar--menu-link">Services</Link>
-            <Link to="/forms" className="header_navbar--menu-link">Formulaire</Link>
+            <Link to="/services" className="header_navbar--menu-link">Documentation</Link>
+            <Link to="/expertise" className="header_navbar--menu-link">Expertise</Link>
           </div>
         </div>
       </div>
 
+      {/* Content */}
       <div className="containerbody">
         <ul className="columnbody">
-
-            {/* Les images à remplacer avec celles des services */}
           <li>
             <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
             <h3><strong>Sensibilisation</strong></h3>
@@ -56,6 +56,7 @@ function Acceuil() {
         </ul>
       </div>
 
+    {/* Footer */}
       <div className="footer">
         <div className="footer_text">
           <div className="containerfooter">

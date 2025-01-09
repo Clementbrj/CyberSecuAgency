@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/services.css"; 
 
-function Services() {
+function Documentation() {
     return (
         <div>
             {/* HEADER */}
@@ -14,8 +14,8 @@ function Services() {
                 <div className="header_navbar">
                     <div className="header_navbar--menu">
                         <Link to="/" className="header_navbar--menu-link">Acceuil</Link> {/* Navigation */}
-                        <Link to="/services" className="header_navbar--menu-link">Services</Link>
-                        <Link to="/forms" className="header_navbar--menu-link">Formulaire</Link>
+                        <Link to="/services" className="header_navbar--menu-link">Documentation</Link>
+                        <Link to="/expertise" className="header_navbar--menu-link">Expertise</Link>
                     </div>
                 </div>
             </div>
@@ -29,4 +29,4 @@ function Services() {
     );
 }
 
-export default Services;
+export default Documentation;

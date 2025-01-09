@@ -3,10 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // Import des composants 
 import Acceuil from "./composants/acceuil";
-import Services from "./composants/services";
-import Formulaire from "./composants/forms";
-import FormSubmit from "./composants/formsubmit";
-import Auth from "./composants/connexion";
+import Documentation from "./composants/documentation";
+import Expertise from "./composants/expertise";
 
 function App() {
   return (
@@ -15,10 +13,8 @@ function App() {
         <Routes>
         {/* Définition des routes */}
           <Route path="/" element={<Acceuil/>}/> 
-          <Route path="/services" element={<Services/>}/>
-          <Route path="/forms" element={<Formulaire/>}></Route>
-          <Route path="/formsubmit" element={<FormSubmit/>}></Route>
-          <Route path="/Auth" element={<Auth/>}></Route>
+          <Route path="/services" element={<Documentation/>}/>
+          <Route path="/expertise" element={<Expertise/>}/>
         </Routes>
       </div>
     </Router>
