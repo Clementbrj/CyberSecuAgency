@@ -1,12 +1,13 @@
-/* Style de base */
+/* Style de base
 body, html {
     margin: 0;
     padding: 0;
     font-family: "PT Mono", monospace;
     color: #333; /* Utiliser une couleur plus lisible */
-}
+/*}*/
 
 /* Header */
+/*
 .header {
     position: relative;
     height: 450px;
@@ -35,10 +36,10 @@ body, html {
     font-weight: bold;
     padding-top: 140px;
     text-decoration: underline;
-}
+}*/
 
 /* Navigation */
-.header_navbar {
+/*.header_navbar {
     position: absolute;
     top: 20px;
     right: 10%;
@@ -53,10 +54,10 @@ body, html {
     color: red;
     text-decoration: none;
     font-size: 22px;
-}
+}*/
 
 /* Container */
-.containerbody {
+/*.containerbody {
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -95,10 +96,10 @@ body, html {
     width: 100%;
     height: auto;
     max-width: 220px;
-}
+}*/
 
 /* Footer */
-.footer {
+/*.footer {
     background: url('../IMG/footer.png') center no-repeat;
     background-size:cover;
     color: rgb(103, 220, 7);
@@ -107,8 +108,8 @@ body, html {
 }
 
 .footer .column h2, .footer .column h3, .footer .column p {
-    font-size: 22px; /* Réduire la taille des titres et des paragraphes */
-}
+    font-size: 22px; Réduire la taille des titres et des paragraphes */
+/*}
 
 
 .containerfooter {
@@ -136,4 +137,4 @@ body, html {
 .contact img{
     width: 40px;
     height: 40px;
-}
+} */
