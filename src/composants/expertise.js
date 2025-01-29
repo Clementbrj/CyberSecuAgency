@@ -25,85 +25,45 @@ function Expertise() {
         <ul className="columnbody">
           <li className ="columnbody">
             <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
-            <h3><strong>Sensibilisation</strong></h3>
-            <p>La CyberSecurity Agency viens à vous. <br></br>
-               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
-               <br></br>
-              Voir le service</p>
+            <h3><strong>Conseil Débutant</strong></h3>
+            <p>Ce programme a pour objectif de sensibiliser les utilisateurs ayant peu de connaissances en cybersécurité et de leur fournir des bases solides.</p>
           </li> 
         </ul>
+        {/* --- */}
         <ul className="columnbody">
           <li className ="columnbody">
             <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
-            <h3><strong>Sensibilisation</strong></h3>
-            <p>La CyberSecurity Agency viens à vous. <br></br>
-               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
-               <br></br>
-              Voir le service</p>
+            <h3><strong>Conseil intermediaire</strong></h3>
+            <p>Ce programme a les mêmes objectifs que « Conseil Débutant », cependant celui-ci se dirige vers des utilisateurs plus expérimentés.</p>
           </li> 
         </ul>
+        {/* --- */}
+        </div>
+        <div className="column-align">
         <ul className="columnbody">
           <li className ="columnbody">
             <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
-            <h3><strong>Sensibilisation</strong></h3>
-            <p>La CyberSecurity Agency viens à vous. <br></br>
-               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
-               <br></br>
-              Voir le service</p>
+            <h3><strong>Conseil de sécurité Web</strong></h3>
+            <p>Ce programme a les mêmes objectifs que « Conseil Débutant », cependant celui-ci se dirige vers des utilisateurs plus expérimentés.</p>
           </li> 
         </ul>
+        {/* --- */}
         <ul className="columnbody">
           <li className ="columnbody">
             <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
-            <h3><strong>Sensibilisation</strong></h3>
-            <p>La CyberSecurity Agency viens à vous. <br></br>
-               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
-               <br></br>
-              Voir le service</p>
+            <h3><strong>Conseil sécurité réseau </strong></h3>
+            <p>Ce programme a pour objectif d’aider les administrateurs réseaux ayant besoin de sécuriser leurs architectures au sein de leurs entreprises.</p>
           </li> 
         </ul>
-      </div>
+
 
       {/* 2EME étage */}
-      <div className="column-align">
         <ul className="columnbody">
           <li className ="columnbody">
             <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
-            <h3><strong>Sensibilisation</strong></h3>
-            <p>La CyberSecurity Agency viens à vous. <br></br>
-               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
-               <br></br>
-              Voir le service</p>
-          </li> 
-        </ul>
-        <ul className="columnbody">
-          <li className ="columnbody">
-            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
-            <h3><strong>Sensibilisation</strong></h3>
-            <p>La CyberSecurity Agency viens à vous. <br></br>
-               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
-               <br></br>
-              Voir le service</p>
-          </li> 
-        </ul>
-        <ul className="columnbody">
-          <li className ="columnbody">
-            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
-            <h3><strong>Sensibilisation</strong></h3>
-            <p>La CyberSecurity Agency viens à vous. <br></br>
-               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
-               <br></br>
-              Voir le service</p>
-          </li> 
-        </ul>
-        <ul className="columnbody">
-          <li className ="columnbody">
-            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
-            <h3><strong>Sensibilisation</strong></h3>
-            <p>La CyberSecurity Agency viens à vous. <br></br>
-               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
-               <br></br>
-              Voir le service</p>
+            <h3><strong>Conseil sécurité base de données</strong></h3>
+            <p>Ce programme a pour objectif d’aider les administrateurs BDD ayant besoin de sécuriser leurs bases de données.
+            e</p>
           </li> 
         </ul>
       </div>
