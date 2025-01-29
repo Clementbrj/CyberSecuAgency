@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/expertise.css"; 
 
 // Mise en page de l'HTML 
 function Expertise() {
@@ -8,9 +7,9 @@ function Expertise() {
     <div>
       <div className="header">
         <div className="header_texture"></div>
-        <div className="header_text">
-          <h1>CyberSecurity Agency</h1>
-        </div>
+          <div className="header_text">
+            <h1 class="Acceuil"><Link to="/">CyberSecurity Agency</Link></h1>
+          </div>
         <div className="header_navbar">
           <div className="header_navbar--menu">
             <Link to="/" className="header_navbar--menu-link">Accueil</Link> {/* Navigation */}
@@ -117,7 +116,7 @@ function Expertise() {
             <div className="column">
               <h2>Prennez RDV</h2>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8-53Pz-hDo81wTA1ALh6Ql5Cp0lz1eyKgH1cCoL0b3zBTlA/viewform?vc=0&c=0&w=1&flr=0">
-              <p>Remplir le formulaire</p></a>
+              <p className="FooterForm">Remplir le formulaire</p></a>
             </div>
             <div className="column">
             <h2><center>Contacts</center></h2>

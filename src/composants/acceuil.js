@@ -2,8 +2,11 @@ import React from "react";
 
 // Librairie pour la Navigation
 import { Link } from 'react-router-dom';
+
 // CSS
-import "../styles/acceuil.css";
+import "../styles/documentation.css"; 
+import "../styles/expertise.css"; 
+
 
 // Mise en page de l'HTML 
 function Acceuil() {
@@ -12,7 +15,7 @@ function Acceuil() {
       <div className="header">
         <div className="header_texture"></div>
         <div className="header_text">
-          <h1>CyberSecurity Agency</h1>
+          <h1 class="Acceuil"><Link to="/">CyberSecurity Agency</Link></h1>
         </div>
         <div className="header_navbar">
           <div className="header_navbar--menu">
@@ -28,7 +31,7 @@ function Acceuil() {
       <div className="column-align">
         <ul className="columnbody">
           <li className ="columnbody">
-            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
+            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Service 1"/>
             <h3><strong>Sensibilisation</strong></h3>
             <p>La CyberSecurity Agency viens à vous. <br></br>
                Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
@@ -38,27 +41,7 @@ function Acceuil() {
         </ul>
         <ul className="columnbody">
           <li className ="columnbody">
-            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
-            <h3><strong>Sensibilisation</strong></h3>
-            <p>La CyberSecurity Agency viens à vous. <br></br>
-               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
-               <br></br>
-              Voir le service</p>
-          </li> 
-        </ul>
-        <ul className="columnbody">
-          <li className ="columnbody">
-            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
-            <h3><strong>Sensibilisation</strong></h3>
-            <p>La CyberSecurity Agency viens à vous. <br></br>
-               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
-               <br></br>
-              Voir le service</p>
-          </li> 
-        </ul>
-        <ul className="columnbody">
-          <li className ="columnbody">
-            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
+            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Service 2"/>
             <h3><strong>Sensibilisation</strong></h3>
             <p>La CyberSecurity Agency viens à vous. <br></br>
                Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
@@ -72,7 +55,7 @@ function Acceuil() {
       <div className="column-align">
         <ul className="columnbody">
           <li className ="columnbody">
-            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
+            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Service 3"/>
             <h3><strong>Sensibilisation</strong></h3>
             <p>La CyberSecurity Agency viens à vous. <br></br>
                Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
@@ -82,27 +65,7 @@ function Acceuil() {
         </ul>
         <ul className="columnbody">
           <li className ="columnbody">
-            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
-            <h3><strong>Sensibilisation</strong></h3>
-            <p>La CyberSecurity Agency viens à vous. <br></br>
-               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
-               <br></br>
-              Voir le service</p>
-          </li> 
-        </ul>
-        <ul className="columnbody">
-          <li className ="columnbody">
-            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
-            <h3><strong>Sensibilisation</strong></h3>
-            <p>La CyberSecurity Agency viens à vous. <br></br>
-               Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
-               <br></br>
-              Voir le service</p>
-          </li> 
-        </ul>
-        <ul className="columnbody">
-          <li className ="columnbody">
-            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Sensibilisation" height="204" width="220"/>
+            <img src={`${process.env.PUBLIC_URL}/IMG/sensibilisation.png `} alt="Service 4"/>
             <h3><strong>Sensibilisation</strong></h3>
             <p>La CyberSecurity Agency viens à vous. <br></br>
                Viens à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.<br></br>
@@ -120,7 +83,7 @@ function Acceuil() {
             <div className="column">
               <h2>Prennez RDV</h2>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8-53Pz-hDo81wTA1ALh6Ql5Cp0lz1eyKgH1cCoL0b3zBTlA/viewform?vc=0&c=0&w=1&flr=0">
-              <p>Remplir le formulaire</p></a>
+              <p class="FooterForm">Remplir le formulaire</p></a>
             </div>
             <div className="column">
             <h2><center>Contacts</center></h2>
