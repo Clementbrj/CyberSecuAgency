@@ -9,72 +9,41 @@ body, html {
     font-family: "PT Mono", monospace;
     color: #333;
 }
-h3{
-    font-family: "cursive";
-}
-
-
-.Acceuil{
-    margin-left:1%;
-    margin-bottom: 10%;
-    font-family: "Trattatello";
-}
-.header_text h1 a{
-    color:red;
-}
-
 
 /*
 -----------------------------------------------------
-Header texture/img..
+Header
 -----------------------------------------------------
 */
-.header {
-    position: relative;
-    height: 15%;
-    width: 100%;
-    overflow: hidden;
-}
-
-.header_texture {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: url('../IMG/header_acceuil.jpg') center no-repeat;
-    background-size: cover;
-    z-index: 1;
-}
-
-.header_text {
-    position: relative;
-    margin-right: 40%;
-    z-index: 2;
-    text-align: center;
-    font-size: 120%;
-    font-weight: bold;
-    padding-top: 12%;
-}
-
-/* Navigation */
 .header_navbar {
-    position: absolute;
-    top: 2%;
-    right: 40%;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
     align-items: center;
+    background-color: #333333;
+    padding: 20px;
+    position: sticky;
     z-index: 2;
-    font-family: "Courier New","serif";
-    font-size:22px;
 }
 
-.header_navbar--menu-link {
-    margin: 0 10px;
-    color: red;
-    text-decoration: none;
-    font-size: 110%;
+.h1_navbar a{
+    text-align: center;
+    font-size: 160%;
+    font-weight: bold;
+    font-family: "Courier New", serif;
+    color: white;
+    margin-bottom: 1%;
 }
 
+.content_navbar {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.content_navbar a {
+    color:red;
+    font-size:120%;
+}
 /*
 -----------------------------------------------------
 Cartes, colonnes, texte..
