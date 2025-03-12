@@ -29,7 +29,7 @@ function Documentation() {
           <li className ="card">
             <h3><strong>CyberSecurity Débutant</strong></h3>
             <p>PowerPoint de la présentation</p>
-            <a href="/PDF/Powerpoint-Debutant.pdf" download="Powerpoint Debutant.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Pp Débutant"/></a>
+            <a href="/CyberSecuAgency/PDF/Powerpoint-Debutant.pdf" download="Powerpoint Debutant.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Pp Débutant"/></a>
           </li> 
           </ul>
 
@@ -46,7 +46,7 @@ function Documentation() {
           <li className ="card">
             <h3><strong>Guide OWASP</strong></h3>
             <p>Comprendre les 10 failles les plus répandues de l'OWASP !</p>
-            <a href="/PDF/Guide OWASP.pdf" download="Guide OWASP.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Guide OWASP"/></a>
+            <a href="/CyberSecuAgency/PDF/Guide OWASP.pdf" download="Guide OWASP.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Guide OWASP"/></a>
           </li> 
           </ul>
           {/* --- */}
@@ -54,7 +54,7 @@ function Documentation() {
             <li className="card">
             <h3><strong>Securité Web</strong></h3>
             <p>Quelques bonnes pratiques et conseils sur la conception de site web</p>
-            <a href="/PDF/Guide sécurité site.pdf" download="Guide sécurité site.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Document OWASP"/></a>
+            <a href="/CyberSecuAgency/PDF/Guide sécurité site.pdf" download="Guide sécurité site.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Document OWASP"/></a>
             </li>
             </ul>
         {/* --- */}
@@ -62,7 +62,7 @@ function Documentation() {
           <li className ="card">
             <h3><strong>StarterPack Utilisateur</strong></h3>
             <p>Vérifier vos notions sur les bases de la cybersécurité !</p>
-            <a href="/PDF/Les-bases-cyber.pdf" download="Les bases en cybersécurité.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Bases utilisateurs en CyberSécurité"/></a>
+            <a href="/CyberSecuAgency/PDF/Les-bases-cyber.pdf" download="Les bases en cybersécurité.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Bases utilisateurs en CyberSécurité"/></a>
           </li> 
         </ul>
         </div>
