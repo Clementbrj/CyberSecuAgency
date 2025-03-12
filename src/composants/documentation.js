@@ -2,22 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Documentation() {
-    return (
-        <div>
-            {/* HEADER */}
-            <div className="header">
-                <div className="header_texture"></div>
-                <div className="header_text">
-                  <h1 class="Acceuil"><Link to="/">CyberSecurity Agency</Link></h1>
-                </div>
-                <div className="header_navbar">
-                    <div className="header_navbar--menu">
-                        <Link to="/" className="header_navbar--menu-link">Acceuil</Link> {/* Navigation */}
-                        <Link to="/services" className="header_navbar--menu-link">Documentation</Link>
-                        <Link to="/expertise" className="header_navbar--menu-link">Expertise</Link>
-                    </div>
-                </div>
-            </div>
+  return (
+    <main>
+      <header>
+        <nav className="header_navbar">
+          <div className="h1_navbar">
+            <h1><Link to="/">CyberSecurity Agency</Link></h1>
+          </div>
+          <div className="content_navbar">
+            <Link to="/">Accueil</Link>
+            <Link to="/services">Documentation</Link>
+            <Link to="/expertise">Expertise</Link>
+          </div>
+        </nav>
+      </header>
 
         {/* ---------------  */}
         <div className="Title-patern">
@@ -29,7 +27,7 @@ function Documentation() {
           <li className ="card">
             <h3><strong>CyberSecurity Débutant</strong></h3>
             <p>PowerPoint de la présentation</p>
-            <a href="/CyberSecuAgency/PDF/Powerpoint-Debutant.pdf" download="Powerpoint Debutant.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Pp Débutant"/></a>
+            <a href="/PDF/Powerpoint-Debutant.pdf" download="Powerpoint Debutant.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Pp Débutant"/></a>
           </li> 
           </ul>
 
@@ -46,7 +44,7 @@ function Documentation() {
           <li className ="card">
             <h3><strong>Guide OWASP</strong></h3>
             <p>Comprendre les 10 failles les plus répandues de l'OWASP !</p>
-            <a href="/CyberSecuAgency/PDF/Guide OWASP.pdf" download="Guide OWASP.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Guide OWASP"/></a>
+            <a href="/PDF/Guide OWASP.pdf" download="Guide OWASP.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Guide OWASP"/></a>
           </li> 
           </ul>
           {/* --- */}
@@ -54,7 +52,7 @@ function Documentation() {
             <li className="card">
             <h3><strong>Securité Web</strong></h3>
             <p>Quelques bonnes pratiques et conseils sur la conception de site web</p>
-            <a href="/CyberSecuAgency/PDF/Guide sécurité site.pdf" download="Guide sécurité site.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Document OWASP"/></a>
+            <a href="/PDF/Guide sécurité site.pdf" download="Guide sécurité site.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Document OWASP"/></a>
             </li>
             </ul>
         {/* --- */}
@@ -62,15 +60,47 @@ function Documentation() {
           <li className ="card">
             <h3><strong>StarterPack Utilisateur</strong></h3>
             <p>Vérifier vos notions sur les bases de la cybersécurité !</p>
-            <a href="/CyberSecuAgency/PDF/Les-bases-cyber.pdf" download="Les bases en cybersécurité.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Bases utilisateurs en CyberSécurité"/></a>
+            <a href="/PDF/Les-bases-cyber.pdf" download="Les bases en cybersécurité.pdf"><img src={`${process.env.PUBLIC_URL}/IMG/download/Download.png `} alt="Bases utilisateurs en CyberSécurité"/></a>
           </li> 
         </ul>
         </div>
     
-    
-    
-    </div>
-    );
+      {/* Footer */}
+      <footer>
+        <section className="footer">
+          <div className="footer_contact">
+              <h2>Contact</h2>
+              <p>Email : <a href="mailto:contact@cybersec.com">contact@cybersec.com</a></p>
+              <p>Téléphone : <a href="tel:+33123456789">+33 1 23 45 67 89</a></p>
+          </div>
+
+          <div className="footer_social">
+              <h2>Suivez-nous</h2>
+              <div className="social_links">
+                <a href="https://www.instagram.com/cybersec" target="_blank" rel="noopener noreferrer">
+                  <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/insta.png`} alt="Instagram" />
+                </a>
+                <a href="https://twitter.com/cybersec" target="_blank" rel="noopener noreferrer">
+                  <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/twitter.png`} alt="Twitter" />
+                </a>
+                <a href="https://twitter.com/cybersec" target="_blank" rel="noopener noreferrer">
+                  <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/linkedin.png`} alt="LinkedIn" />
+                </a>
+              </div>
+          </div>
+
+            <div className="footer_desc">
+              <h2>À propos</h2>
+              <p>CyberSecurity Agency est une entreprise dédiée à la protection numérique et la sensibilisation à la cybersécurité.</p>
+            </div>
+        </section>
+        <div className="footer_privacy">
+            <p>© 2025 CyberSecurity Agency - Tous droits réservés</p>
+        </div>
+      </footer>
+
+    </main>
+  );
 }
 
 export default Documentation;

@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import "../styles/documentation.css"; 
-import "../styles/expertise.css"; 
+import "../styles/cardacceuil.css"; 
+import "../styles/template.css"
+import "../styles/documentation.css"
 
 function Acceuil() {
   return (
@@ -36,7 +37,7 @@ function Acceuil() {
           </ul>
           <ul className="columnbody">
             <li className="columnbody">
-              <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/sensibilisation.png`} alt="Service 2" />
+              <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/sensibilisation.png`} alt="Service 1" />
               <h3><strong>Sensibilisation</strong></h3>
               <p>
                 La CyberSecurity Agency vient à vous.<br />
@@ -76,40 +77,40 @@ function Acceuil() {
           </ul>
         </div>
       </section>
+      
       {/* Footer */}
-      <footer className="footer">
-  <div className="footer_container">
-    <div className="footer_column">
-      <h2>Contact</h2>
-      <p>Email : <a href="mailto:contact@cybersec.com">contact@cybersec.com</a></p>
-      <p>Téléphone : <a href="tel:+33123456789">+33 1 23 45 67 89</a></p>
-    </div>
+      <footer>
+        <section className="footer">
+          <div className="footer_contact">
+              <h2>Contact</h2>
+              <p>Email : <a href="mailto:contact@cybersec.com">contact@cybersec.com</a></p>
+              <p>Téléphone : <a href="tel:+33123456789">+33 1 23 45 67 89</a></p>
+          </div>
 
-    <div className="footer_column">
-      <h2>Suivez-nous</h2>
-      <div className="social_links">
-        <a href="https://www.instagram.com/cybersec" target="_blank" rel="noopener noreferrer">
-          <img src={`${process.env.PUBLIC_URL}/IMG/footer/instagram.png`} alt="Instagram" />
-        </a>
-        <a href="https://twitter.com/cybersec" target="_blank" rel="noopener noreferrer">
-          <img src={`${process.env.PUBLIC_URL}/IMG/footer/twitter.png`} alt="Twitter" />
-        </a>
-        <a href="https://linkedin.com/company/cybersec" target="_blank" rel="noopener noreferrer">
-          <img src={`${process.env.PUBLIC_URL}/IMG/footer/linkedin.png`} alt="LinkedIn" />
-        </a>
-      </div>
-    </div>
+          <div className="footer_social">
+              <h2>Suivez-nous</h2>
+              <div className="social_links">
+                <a href="https://www.instagram.com/cybersec" target="_blank" rel="noopener noreferrer">
+                  <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/insta.png`} alt="Instagram" />
+                </a>
+                <a href="https://twitter.com/cybersec" target="_blank" rel="noopener noreferrer">
+                  <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/twitter.png`} alt="Twitter" />
+                </a>
+                <a href="https://twitter.com/cybersec" target="_blank" rel="noopener noreferrer">
+                  <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/linkedin.png`} alt="LinkedIn" />
+                </a>
+              </div>
+          </div>
 
-    <div className="footer_column">
-      <h2>À propos</h2>
-      <p>CyberSecurity Agency est une entreprise dédiée à la protection numérique et la sensibilisation à la cybersécurité.</p>
-    </div>
-  </div>
-  
-  <div className="footer_bottom">
-    <p>© 2025 CyberSecurity Agency - Tous droits réservés</p>
-  </div>
-</footer>
+            <div className="footer_desc">
+              <h2>À propos</h2>
+              <p>CyberSecurity Agency est une entreprise dédiée à la protection numérique et la sensibilisation à la cybersécurité.</p>
+            </div>
+        </section>
+        <div className="footer_privacy">
+            <p>© 2025 CyberSecurity Agency - Tous droits réservés</p>
+        </div>
+      </footer>
 
     </main>
   );
