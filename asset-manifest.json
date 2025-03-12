@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/CyberSecuAgency/static/css/main.9409f1c9.css",
-    "main.js": "/CyberSecuAgency/static/js/main.6b68d5ec.js",
+    "main.js": "/CyberSecuAgency/static/js/main.0fc6ad01.js",
     "index.html": "/CyberSecuAgency/index.html",
     "main.9409f1c9.css.map": "/CyberSecuAgency/static/css/main.9409f1c9.css.map",
-    "main.6b68d5ec.js.map": "/CyberSecuAgency/static/js/main.6b68d5ec.js.map"
+    "main.0fc6ad01.js.map": "/CyberSecuAgency/static/js/main.0fc6ad01.js.map"
   },
   "entrypoints": [
     "static/css/main.9409f1c9.css",
-    "static/js/main.6b68d5ec.js"
+    "static/js/main.0fc6ad01.js"
   ]
 }
