@@ -1,23 +1,34 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslation} from "react-i18next";
 
 // Mise en page de l'HTML 
 function Expertise() {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
   return (
     <main>
+      {/* Header */}
       <header>
         <nav className="header_navbar">
           <div className="h1_navbar">
-            <h1><Link to="/">CyberSecurity Agency</Link></h1>
+            <h1><Link to="/">{t('welcome')}</Link></h1>
           </div>
-          <div className="content_navbar">
-            <Link to="/">Accueil</Link>
+          <section className="content_navbar">
+            <Link to="/">{t('acc')}</Link>
             <Link to="/services">Documentation</Link>
-            <Link to="/expertise">Expertise</Link>
-          </div>
+            <Link to="/expertise">{t('expertise')}</Link>
+          </section>
         </nav>
+        <section className="circular-selector">
+          <div className="segment" data-lang="EN" onClick={() => changeLanguage('en')}>EN</div>
+          <div className="segment" data-lang="FR" onClick={() => changeLanguage('fr')}>FR</div>
+          <div className="center"></div>
+        </section>
       </header>
-
 
       {/* 1ER étage de compétences */}
     <section>
@@ -25,16 +36,16 @@ function Expertise() {
           <ul className="columnbody">
             <li className ="columnbody">
               <img src={`${process.env.PUBLIC_URL}/IMG/expertise/csl-debutant.png `} alt="Conseil débutant" height="204" width="220"/>
-              <h3><strong>Conseil Débutant</strong></h3>
-              <p>Ce programme a pour objectif de sensibiliser les utilisateurs ayant peu de connaissances en cybersécurité et de leur fournir des bases solides.</p>
+              <h3><strong>{t("it1")}</strong></h3>
+              <p>{t("ic1")}</p>
             </li> 
           </ul>
           {/* --- */}
           <ul className="columnbody">
             <li className ="columnbody">
               <img src={`${process.env.PUBLIC_URL}/IMG/expertise/csl-intermediaire.png `} alt="Conseil intermediaire" height="204" width="220"/>
-              <h3><strong>Conseil intermediaire</strong></h3>
-              <p>Ce programme a les mêmes objectifs que « Conseil Débutant », cependant celui-ci se dirige vers des utilisateurs plus expérimentés.</p>
+              <h3><strong>{t("it2")}</strong></h3>
+              <p>{t("ic2")}</p>
             </li> 
           </ul>
           {/* --- */}
@@ -43,16 +54,16 @@ function Expertise() {
           <ul className="columnbody">
             <li className ="columnbody">
               <img src={`${process.env.PUBLIC_URL}/IMG/expertise/csl-secu web.jpg `} alt="Conseil sécu web" height="204" width="220"/>
-              <h3><strong>Conseil de sécurité Web</strong></h3>
-              <p>Ce programme a les mêmes objectifs que « Conseil Débutant », cependant celui-ci se dirige vers des utilisateurs plus expérimentés.</p>
+              <h3><strong>{t("it3")}</strong></h3>
+              <p>{t("ic3")}</p>
             </li> 
           </ul>
           {/* --- */}
           <ul className="columnbody">
             <li className ="columnbody">
               <img src={`${process.env.PUBLIC_URL}/IMG/expertise/csl-secu cyber.png `} alt="Conseil sécu cyber" height="204" width="220"/>
-              <h3><strong>Conseil sécurité réseau </strong></h3>
-              <p>Ce programme a pour objectif d’aider les administrateurs réseaux ayant besoin de sécuriser leurs architectures au sein de leurs entreprises.</p>
+              <h3><strong>{t("it4")}</strong></h3>
+              <p>{t("ic4")}</p>
             </li> 
           </ul>
 
@@ -61,9 +72,8 @@ function Expertise() {
           <ul className="columnbody">
             <li className ="columnbody">
               <img src={`${process.env.PUBLIC_URL}/IMG/expertise/csl-bdd.png `} alt="Conseil bdd" height="204" width="220"/>
-              <h3><strong>Conseil sécurité base de données</strong></h3>
-              <p>Ce programme a pour objectif d'aider les administrateurs BDD ayant besoin de sécuriser leurs bases de données.
-              e</p>
+              <h3><strong>{t("it5")}</strong></h3>
+              <p>{t("ic5")}</p>
             </li> 
           </ul>
         </div>
@@ -73,33 +83,33 @@ function Expertise() {
       <footer>
         <section className="footer">
           <div className="footer_contact">
-              <h2>Contact</h2>
-              <p>Email : <a href="mailto:contact@cybersec.com">contact@cybersec.com</a></p>
-              <p>Téléphone : <a href="tel:+33123456789">+33 1 23 45 67 89</a></p>
+            <h2>{t('contact')}</h2>
+            <p>{t('email')}<a href="mailto:contact@cybersec.com">contact@cybersec.com</a></p>
+            <p>{t('phone')}<a href="tel:+33123456789">+33 1 23 45 67 89</a></p>
           </div>
 
           <div className="footer_social">
-              <h2>Suivez-nous</h2>
-              <div className="social_links">
-                <a href="https://www.instagram.com/cybersec" target="_blank" rel="noopener noreferrer">
-                  <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/insta.png`} alt="Instagram" />
-                </a>
-                <a href="https://twitter.com/cybersec" target="_blank" rel="noopener noreferrer">
-                  <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/twitter.png`} alt="Twitter" />
-                </a>
-                <a href="https://twitter.com/cybersec" target="_blank" rel="noopener noreferrer">
-                  <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/linkedin.png`} alt="LinkedIn" />
-                </a>
-              </div>
+            <h2>{t('followUs')}</h2>
+            <div className="social_links">
+              <a href="https://www.instagram.com/cybersec" target="_blank" rel="noopener noreferrer">
+                <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/insta.png`} alt="Instagram" />
+              </a>
+              <a href="https://twitter.com/cybersec" target="_blank" rel="noopener noreferrer">
+                <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/twitter.png`} alt="Twitter" />
+              </a>
+              <a href="https://twitter.com/cybersec" target="_blank" rel="noopener noreferrer">
+                <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/linkedin.png`} alt="LinkedIn" />
+              </a>
+            </div>
           </div>
 
-            <div className="footer_desc">
-              <h2>À propos</h2>
-              <p>CyberSecurity Agency est une entreprise dédiée à la protection numérique et la sensibilisation à la cybersécurité.</p>
-            </div>
+          <div className="footer_desc">
+            <h2>{t('about')}</h2>
+            <p>{t('aboutDescription')}</p>
+          </div>
         </section>
         <div className="footer_privacy">
-            <p>© 2025 CyberSecurity Agency - Tous droits réservés</p>
+          <p>{t('privacy')}</p>
         </div>
       </footer>
 

@@ -37,13 +37,73 @@ Header
 .content_navbar {
     display: flex;
     justify-content: center;
-    gap: 2%;
+    gap: 10%;
 }
 
 .content_navbar a {
     color:red;
     font-size:120%;
 }
+
+/* -- Bouton language-- */
+/* Ensemble */
+/* Ensemble */
+.circular-selector {
+  position: absolute;
+  top: 2vh;
+  right: 2vw;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  background-color: #cacaca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+/* Exterieur */
+.segment {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 0.9vw;
+}
+
+.segment:hover {
+  background-color: #e0e0e0;
+}
+
+.segment[data-lang="EN"] {
+  top: 0;
+  left: 0;
+  border-top-left-radius: 50%;
+}
+
+.segment[data-lang="FR"] {
+  top: 0;
+  right: 0;
+  border-top-right-radius: 50%;
+}
+
+.center {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  background-color: #989898;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8vw;
+  color: #333;
+}
+
 /*
 -----------------------------------------------------
 Footer

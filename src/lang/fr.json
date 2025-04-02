@@ -1,0 +1,39 @@
+{
+    "welcome": "CyberSecurity Agency",
+    "acc": "Acceuil",
+
+    "sensibilisation": "Sensibilisation",
+    "description": "L'Agence de Cybersécurité vient à vous. Nous venons à votre rencontre pour vous initier à la cybersécurité et ses bonnes pratiques.",
+    "seeService": "Voir le service",
+
+    "documentation": "---",
+    "ppt1": "CyberSecurity Débutant",
+    "ppc1": "PowerPoint de la présentation",
+    "ppt2": "Guide OWASP",
+    "ppc2": "Comprendre les 10 failles les plus répandues de l'OWASP",
+    "ppt3": "Securité Web",
+    "ppc3": "Quelques bonnes pratiques et conseils sur la conception de site web",
+    "ppt4": "StarterPack Utilisateur",
+    "ppc4": "Vérifier vos notions sur les bases de la cybersécurité !",
+
+    "expertise": "Expertise",
+    "it1": "Conseil Débutant",
+    "ic1": "Ce programme a pour objectif de sensibiliser les utilisateurs ayant peu de connaissances en cybersécurité et de leur fournir des bases solides.",
+    "it2": "Conseil intermediaire",
+    "ic2": "Ce programme a les mêmes objectifs que « Conseil Débutant », cependant celui-ci se dirige vers des utilisateurs plus expérimentés.",
+    "it3": "Conseil de sécurité Web",
+    "ic3": "Ce programme vous donne les bases minimales à avoir pour créer un site Web",
+    "it4": "Conseil sécurité réseau",
+    "ic4": "Ce programme a pour objectif d’aider les administrateurs réseaux ayant besoin de sécuriser leurs architectures au sein de leurs entreprises.",
+    "it5": "Conseil sécurité base de données",
+    "ic5": "Ce programme a pour objectif d'aider les administrateurs BDD ayant besoin de sécuriser leurs bases de données.",
+
+    "contact": "Contact",
+    "email": "Email : ",
+    "phone": "Téléphone : ",
+    "followUs": "Suivez-nous",
+    "about": "À propos",
+    "aboutDescription": "CyberSecurity Agency est une entreprise dédiée à la protection numérique et à la sensibilisation à la cybersécurité.",
+    "privacy": "© 2025 CyberSecurity Agency - Tous droits réservés"
+  }
+  

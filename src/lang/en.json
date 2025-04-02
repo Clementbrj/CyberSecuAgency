@@ -1,0 +1,39 @@
+{
+    "welcome": "CyberSecurity Agency",
+    "acc": "Fosterling",
+
+    "sensibilisation": "Awareness",
+    "description": "CyberSecurity Agency comes to you. We meet you to introduce you to cybersecurity and its best practices.",
+    "seeService": "See the service",
+
+    "documentation": "---",
+    "ppt1": "CyberSecurity for beginner",
+    "ppc1": "Presentation powerpoint",
+    "ppt2": "OWASP manual",
+    "ppc2": "Understand the 10 most popular problem of OWASP",
+    "ppt3": "Web security",
+    "ppc3": "Somes good practices and advices for your website conception",
+    "ppt4": "User Starterpack",
+    "ppc4": "Check your cybersecurity bases knowledge",
+
+    "expertise": "Skills",
+    "it1": "Beginner Advices",
+    "ic1": "This program have to objectiv to awareness beginner and give them solid bases.",
+    "it2": "Intermediate Advices",
+    "ic2": "This program have the same objectiv of 'Beginner Advice' but for a more experimented user",
+    "it3": "WebSite security Advices",
+    "ic3": "This program is giving to you the bases of how to do a minimal securised website",
+    "it4": "Network security Advices",
+    "ic4": "This program have to objectiv to give to a Network Administrator help and advices to securise his network architecture",
+    "it5": "DataBase security Advices",
+    "ic5": "This program have to objectiv to help the DataBase Administrator to securise his DataBase",
+
+    "contact": "Contact",
+    "email": "Email: ",
+    "phone": "Phone: ",
+    "followUs": "Follow Us",
+    "about": "About",
+    "aboutDescription": "CyberSecurity Agency is a company dedicated to digital protection and cybersecurity awareness.",
+    "privacy":"© 2025 CyberSecurity Agency - All rights reserved"
+  }
+  
