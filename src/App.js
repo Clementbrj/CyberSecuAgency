@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 // Import des composants
 import Acceuil from "./composants/acceuil";
@@ -8,7 +8,7 @@ import Expertise from "./composants/expertise";
 
 function App() {
   return (
-    <Router basename="/CyberSecuAgency">
+    <Router>
       <div>
         <Routes>
           {/* Définition des routes */}

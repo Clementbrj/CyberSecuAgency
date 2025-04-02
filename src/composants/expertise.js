@@ -91,7 +91,7 @@ function Expertise() {
           <div className="footer_social">
             <h2>{t('followUs')}</h2>
             <div className="social_links">
-              <a href="https://www.instagram.com/cybersec" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/cybersec.agency/" target="_blank" rel="noopener noreferrer">
                 <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/insta.png`} alt="Instagram" />
               </a>
               <a href="https://twitter.com/cybersec" target="_blank" rel="noopener noreferrer">
