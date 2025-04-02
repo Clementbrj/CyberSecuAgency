@@ -13,8 +13,8 @@ function App() {
         <Routes>
           {/* Définition des routes */}
           <Route path="/" element={<Acceuil />} />
-          <Route path="/services" element={<Documentation />} />
-          <Route path="/expertise" element={<Expertise />} />
+          <Route path="/documentation" element={<Documentation />} />
+          <Route path="/services" element={<Expertise />} />
         </Routes>
       </div>
     </Router>

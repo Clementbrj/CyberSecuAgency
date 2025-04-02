@@ -1,0 +1,61 @@
+/* Container */
+.company-presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  background-color: #ebebeb;
+  margin: 1%;
+  border-radius: 1%;
+}
+
+/* Content */
+.presentation-content h2 {
+  border-top: 1px solid rgb(200, 200, 200);
+  padding: 1%;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.presentation-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 700px;
+}
+
+/* Container des services */
+.company-container {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 1%;
+}
+
+/* Cartes */
+.service-card {
+  background-image: url('../../public/IMG/acceuil/backcard.gif');
+  opacity: 0.85;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 3%;
+  border-radius: 5%;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 150px;
+  height: 150px;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card p {
+  margin: 0;
+  font-size: 1rem;
+  color: #e0b8b8;
+}

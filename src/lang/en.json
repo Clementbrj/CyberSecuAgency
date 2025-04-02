@@ -1,10 +1,14 @@
 {
     "welcome": "CyberSecurity Agency",
-    "acc": "Fosterling",
-
-    "sensibilisation": "Awareness",
-    "description": "CyberSecurity Agency comes to you. We meet you to introduce you to cybersecurity and its best practices.",
-    "seeService": "See the service",
+    "acc": "Who we are ?",
+    "company1": "CyberSecurity Agency is a French start-up, created as part of the 'Ydays' initiative at Ynov School in Aix-en-Provence. We specialize in raising awareness and securing systems in the field of cybersecurity.",
+    "companyt2": "What We Do",
+    "company2": "Our team brings unique and diverse expertise along with innovative solutions to enhance digital security.",
+    "companyt3": "Our Team",
+    "company3": "Comprised of 10-15 passionate students, our team includes individuals at varying educational levels, from first-year undergraduates to master's degree candidates. This diversity allows us to cover a wide range of skills to better meet your needs.",  
+    "companys1": "Network Security Awareness",
+    "companys2": "Web Security Awareness",
+    "companys3": "Database Security Awareness",
 
     "documentation": "---",
     "ppt1": "CyberSecurity for beginner",
@@ -33,7 +37,7 @@
     "phone": "Phone: ",
     "followUs": "Follow Us",
     "about": "About",
-    "aboutDescription": "CyberSecurity Agency is a company dedicated to digital protection and cybersecurity awareness.",
+    "aboutDescription": "CyberSecurity Agency is a start-up dedicated to digital protection and cybersecurity awareness.",
     "privacy":"© 2025 CyberSecurity Agency - All rights reserved"
   }
   
