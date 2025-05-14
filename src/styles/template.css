@@ -1,26 +1,31 @@
-/* General Styles */
-body, html {
+/* GENERAL STYLES */
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "PT Mono", monospace;
-  color: #333;
 }
 
-/* Header Styles */
-/* Header Styles */
+html, body {
+  font-family: "PT Mono", monospace;
+  color: #333;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* HEADER STYLES */
 .header_navbar {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #333333;
   padding: 20px;
-  position: sticky;
-  top: 0;
+  padding-right: 80px;
   z-index: 2;
   width: 100%;
 }
 
-/* Titre principal */
+
 .h1_navbar a {
   text-align: center;
   font-size: 160%;
@@ -31,27 +36,24 @@ body, html {
   text-decoration: none;
 }
 
-/* Liens de navigation */
 .content_navbar {
   display: flex;
-  justify-content: space-evenly; 
   align-items: center;
-  flex-wrap: nowrap; 
+  justify-content: center;
   gap: 2vw;
   width: 100%;
-  padding: 0 2vw;
+  padding: 0 10px;
   box-sizing: border-box;
-  overflow-x: auto; 
+  flex-wrap: wrap;
 }
 
 .content_navbar a {
   color: red;
-  font-size: 1vw; /* taille fluide selon l’écran */
+  font-size: 14px;
   text-decoration: none;
-  white-space: nowrap; /* empêche les sauts de ligne dans les liens */
+  white-space: nowrap;
 }
 
-/* Language Selector */
 .circular-selector {
   position: absolute;
   top: 2vh;
@@ -107,8 +109,7 @@ body, html {
   color: #333;
 }
 
-
-/* Footer Styles */
+/* FOOTER STYLES */
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -120,7 +121,10 @@ body, html {
   border-radius: 2%;
 }
 
-.footer_contact, .footer_social, .footer_desc, .footer_privacy {
+.footer_contact,
+.footer_social,
+.footer_desc,
+.footer_privacy {
   flex: 1 1 300px;
   display: flex;
   flex-direction: column;
@@ -139,14 +143,25 @@ body, html {
   width: 40px;
 }
 
+@media screen and (max-width: 600px) {
+  .content_navbar a {
+    font-size: 4vw;
+  }
 
-/* Adaptation téléphone */
-@media (max-width: 600px) {
+  .h1_navbar a {
+    font-size: 6vw;
+  }
+
   .circular-selector {
     width: 50px;
     height: 50px;
   }
-  .segment{
-    font-size: 2.2vw;
+
+  .segment {
+    font-size: 3.5vw;
+  }
+
+  .center {
+    font-size: 3vw;
   }
 }
