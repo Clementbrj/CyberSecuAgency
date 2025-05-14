@@ -44,8 +44,8 @@ text-decoration: none;
 position: absolute;
 top: 2vh;
 right: 2vw;
-width: 4vw;
-height: 4vw;
+width: 6vw;
+height: 6vw;
 border-radius: 50%;
 background-color: #cacaca;
 display: flex;
@@ -97,41 +97,43 @@ color: #333;
 
 /* Footer Styles */
 .footer {
-align-items: flex-start;
-border-radius: 2%;
-margin: 0% 1% 1% 1%;
-display: flex;
-padding: 1%;
-background-color: #d0c6c6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 2%;
+  margin: 1%;
+  background-color: #d0c6c6;
+  border-radius: 2%;
 }
 
 .footer_contact, .footer_social, .footer_desc, .footer_privacy {
-flex: 1;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}
-
-.footer_contact a, .footer_social a {
-color: white;
-text-decoration: none;
-transition: color 0.3s;
-}
-
-.footer_contact a:hover,
-.footer_social a:hover {
-color: #f8dcdc;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .social_links {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 2%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .social_links img {
-width: 40px;
-height: auto;
+  width: 40px;
+}
+
+
+/* Adaptation téléphone */
+@media (max-width: 600px) {
+  .circular-selector {
+    width: 50px;
+    height: 50px;
+  }
+  .segment{
+    font-size: 2.2vw;
+  }
 }

@@ -1,76 +1,52 @@
-/*
------------------------------------------------------
-Cartes, de l'acceuil
------------------------------------------------------
-*/
-.columnbody h3{
-    margin: 0 auto;
-    flex-wrap:wrap;
-}
-
-.column-align {
-    margin-left: 2%;
-    margin-right: 2%;
+/* Container */
+.card-align {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    gap: 5%;
-    flex-wrap: nowrap;
-}
-
-.columnbody li p {
-    word-wrap: break-word;
-    overflow-wrap: break-word; 
-    word-break: break-word; 
-    white-space: normal; 
-    overflow: hidden; 
-    text-overflow: ellipsis;
-}
-
-ul.columnbody{
-    list-style-type: none; 
-}
-
-.columnbody li {
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* composant */
+  ul.card {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
     max-width: 100%;
-    padding: 1%;
+  }
+  
+  /* Card */
+  li.card {
     background-color: #f4f4f4;
     border: 1px solid #909090;
+    padding: 1rem;
+    width: 300px;
     text-align: center;
-}
-
-
-.columnbody img {
-    margin: 0 auto;
-    width: 30%;
-    height: auto;
     transition: 0.4s;
-}
-
-.columnbody li:hover {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  li.card:hover {
     transform: scale(1.05);
-    background:lightslategrey;
-    transition:background-color 0.4s, transform 0.4s;
-}
-
-
-/* AC1 */
-.columnbody {
-    flex: 2;
-}
-
-.AC1 {
-    flex: 2;
-    display: flex;
-    
-}
-
-.AC1 img {
-    width: 100%;
-    max-width: 300px; 
+    background-color: lightslategrey;
+    color: white;
+  }
+  
+  li.card img {
+    width: 40%;
     height: auto;
-}
+    margin-top: 10px;
+  }
+  
+  .Title-patern {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .Title {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  

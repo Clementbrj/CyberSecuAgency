@@ -1,5 +1,6 @@
 /* Container */
 .company-presentation {
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,6 +9,7 @@
   background-color: #ebebeb;
   margin: 1%;
   border-radius: 1%;
+  flex-wrap: wrap;
 }
 
 /* Content */
@@ -18,11 +20,31 @@
   margin-bottom: 20px;
 }
 
+.presentation-content {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 0 2%;
+  overflow-wrap: break-word;
+}
+
+
 .presentation-content p {
+  overflow-wrap: break-word;
+  word-break: break-word;
   font-size: 1rem;
   line-height: 1.6;
   max-width: 700px;
+  margin: auto;
 }
+
+.presentation-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 
 /* Container des services */
 .company-container {
@@ -30,6 +52,8 @@
   justify-content: center;
   gap: 5%;
   margin-top: 1%;
+  flex-wrap: wrap;
+  padding: 0 5%;
 }
 
 /* Cartes */
@@ -48,6 +72,7 @@
   transition: transform 0.3s, box-shadow 0.3s;
   width: 150px;
   height: 120px;
+  flex-shrink: 0;
 }
 
 .service-card:hover {
@@ -60,6 +85,7 @@
   color: #e0b8b8;
 }
 
+/* Scroll */
 .scroll-container {
   overflow: hidden;
   width: 100%;

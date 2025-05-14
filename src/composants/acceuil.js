@@ -40,7 +40,6 @@ function Acceuil() {
                   <Link to="/services" className="service-card">
                     <p>{t('companys3')}</p>
                   </Link>
-
                 </div>
               </div>
               
