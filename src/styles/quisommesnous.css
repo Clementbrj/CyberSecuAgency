@@ -47,7 +47,7 @@
   border-radius: 5%;
   transition: transform 0.3s, box-shadow 0.3s;
   width: 150px;
-  height: 150px;
+  height: 120px;
 }
 
 .service-card:hover {
@@ -58,4 +58,26 @@
   margin: 0;
   font-size: 1rem;
   color: #e0b8b8;
+}
+
+.scroll-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  height: auto;
+}
+
+.scroll-content {
+  display: flex;
+  gap: 5%;
+  animation: scroll-left 14s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }

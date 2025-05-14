@@ -27,17 +27,25 @@ function Acceuil() {
           <h2>{t('companyt3')}</h2>
           <p>{t('company3')}</p>
             <div className="company-container">
-              <Link to="/expertise" className="service-card">
-                <p>{t('companys1')}</p>
-              </Link>
-              <Link to="/expertise" className="service-card">
-                <p>{t('companys2')}</p>
-              </Link>
-              <Link to="/expertise" className="service-card">
-                <p>{t('companys3')}</p>
-              </Link>
+
+              {/* scroll bar */}
+              <div className="scroll-container">
+                <div className="scroll-content">
+                  <Link to="/services" className="service-card">
+                    <p>{t('companys1')}</p>
+                  </Link>
+                  <Link to="/services" className="service-card">
+                    <p>{t('companys2')}</p>
+                  </Link>
+                  <Link to="/services" className="service-card">
+                    <p>{t('companys3')}</p>
+                  </Link>
+
+                </div>
+              </div>
+              
             </div>
-        </div>
+        </div>  
       </section>
 
     {/* Footer */}

@@ -10,7 +10,7 @@ export default function Footer(){
         <div className="footer_contact">
             <h2>{t('contact')}</h2>
             <p>{t('email')}<a href="mailto:contact@cybersec.com">contact@cybersec.com</a></p>
-            <p>{t('phone')}<a href="tel:+33123456789">+33 0 00 00 00 00</a></p>
+            <p>{t('phone')}<a href="tel:+33123456789">+33.x.xx.xx.xx.xx</a></p>
         </div>
 
         <div className="footer_social">
