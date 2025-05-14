@@ -16,7 +16,7 @@ return(
           </div>
           <section className="content_navbar">
             <Link to="/">{t('acc')}</Link>
-            <Link to="/services">{t('services')}</Link>
+            <Link to="/services">{t('Services')}</Link>
             <Link to="/documentation">Ressources</Link>
           </section>
         </nav>
