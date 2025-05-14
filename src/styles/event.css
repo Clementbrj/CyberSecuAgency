@@ -1,0 +1,27 @@
+.event-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 2%;
+  }
+  
+  .event-card {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .event-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .event-caption {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  

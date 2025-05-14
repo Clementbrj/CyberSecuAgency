@@ -17,7 +17,7 @@
     "ppc2": "Understand the 10 most popular problem of OWASP",
     "ppt3": "Web security",
     "ppc3": "Somes good practices and advices for your website conception",
-    "ppt4": "User Starterpack",
+    "ppt4": "User StarterPack",
     "ppc4": "Check your cybersecurity bases knowledge",
 
     "expertise": "Skills",
@@ -31,6 +31,10 @@
     "ic4": "This program have to objectiv to give to a Network Administrator help and advices to securise his network architecture",
     "it5": "DataBase security Advices",
     "ic5": "This program have to objectiv to help the DataBase Administrator to securise his DataBase",
+
+    "event": "Évènements",
+    "ie1": "Intervention for the start-Up Human Ynov with a pack 'CyberSecurity for Beginner'",
+    "ie2": "Intervention for the start-Up X pour le 'User StarterPack'",
 
     "contact": "Contact",
     "email": "Email: ",

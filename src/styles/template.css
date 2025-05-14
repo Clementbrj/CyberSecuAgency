@@ -30,7 +30,7 @@ margin-bottom: 1%;
 display: flex;
 justify-content: center;
 gap: 5%;
-width: 100%;
+max-width: 100%;
 }
 
 .content_navbar a {

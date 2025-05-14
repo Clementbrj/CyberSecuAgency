@@ -18,6 +18,7 @@ return(
             <Link to="/">{t('acc')}</Link>
             <Link to="/services">{t('Services')}</Link>
             <Link to="/documentation">Ressources</Link>
+            <Link to="/event">{t('event')}</Link>
           </section>
         </nav>
         <section className="circular-selector">

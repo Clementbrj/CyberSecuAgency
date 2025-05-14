@@ -17,7 +17,7 @@ function Acceuil() {
     <main>
       {/* Header */}
         <Headers/>
-      {/* Middle Section: Company Presentation */}
+
       <section className="company-presentation">
         <div className="presentation-content">
           <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/logo.png`} alt="logoSU" />

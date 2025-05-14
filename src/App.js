@@ -1,5 +1,6 @@
 import React from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import EventPage from "./composants/event";
 
 // Import des composants
 import Acceuil from "./composants/acceuil";
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Acceuil />} />
           <Route path="/documentation" element={<Documentation />} />
           <Route path="/services" element={<Expertise />} />
+          <Route path="/event" element={<EventPage />} />
         </Routes>
       </div>
     </Router>
