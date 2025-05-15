@@ -19,10 +19,10 @@ export default function Footer(){
             <a href="https://www.instagram.com/cybersec.agency/" target="_blank" rel="noopener noreferrer">
                 <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/insta.png`} alt="Instagram" />
             </a>
-            <a href="https://twitter.com/cybersec" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/cyb_secu_agency" target="_blank" rel="noopener noreferrer">
                 <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/twitter.png`} alt="Twitter" />
             </a>
-            <a href="https://linkedin.com/company/cybersec" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
                 <img src={`${process.env.PUBLIC_URL}/IMG/acceuil/linkedin.png`} alt="LinkedIn" />
             </a>
             </div>
